@@ -2,7 +2,7 @@
 
 ![Samsung](Samsung-Galaxy-S23.png.webp "Samsung")
 
-Source: https://recy-cell.ca/en/products/samsung-galaxy-s23/, retrieved on December 2, 2024.
+Source: https://recy-cell.ca/en/products/samsung-galaxy-s23/ , retrieved on December 2, 2024.
 
 ## Introduction
 
@@ -16,7 +16,7 @@ Nowadays, smartphones have become an essential part of our daily lives, making s
 
 ### 4. Displaying the currencies by currency code
 
-For this step, the method used was doing an online research of the currency code of each country included in the list. The source of the currency codes were from: https://openknowledge.fao.org/server/api/core/bitstreams/7d0c5832-7360-4f49-962d-ccf72338dc79/content, as I went through the document and listed them down by countries. In the code cell, the “currencies: list contains the currency codes corresponding to the countries in order, such as "USD" for the United States, "CAD" for Canada, "GBP" for the United Kingdom, etc. 
+For this step, the method used was doing an online research of the currency code of each country included in the list. The source of the currency codes were from: https://openknowledge.fao.org/server/api/core/bitstreams/7d0c5832-7360-4f49-962d-ccf72338dc79/content , as I went through the document and listed them down by countries. In the code cell, the “currencies: list contains the currency codes corresponding to the countries in order, such as "USD" for the United States, "CAD" for Canada, "GBP" for the United Kingdom, etc. 
 
 Next, I combined the column “currencies” with the table “Cleanedtable”, by using the Cleanedtable.with_column method to create a new table, named “table_with_currencies”, by adding the currencies list as a new column named "Currency" to the existing table, “Cleanedtable”. This shows each country's local price in the table with its respective currency.
 
