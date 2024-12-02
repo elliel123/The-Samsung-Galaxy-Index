@@ -36,4 +36,11 @@ As shown in the graph, you can see that the countries that you’re worst off in
 
 ### 6. 
 
+We decided to compare the average income of each county with the difference in cost. To do this we first found the average income of each country in USD and placed them into a list. This list was then placed into a copy of the previous table with the new name "FINAL_price_table_with_income" with a new column, "Average Income (USD)". We then created a new column by applying the previously described conversion to CAD to "Average Income (USD)" to aquire "Average Income (CAD)". After this we droped "Average Income (USD)". 
 ### 7.
+In order to compare the relation between average income and the difference we ploted them in a scattterplot, using the columns "Average Income (CAD)" and difference "Difference without tax" which resulted in this scatterplot.
+
+
+![Scatterplot](https://github.com/user-attachments/assets/889d55d6-6a15-4171-8603-bd234688e32c)
+
+As we can clearly see from this scatterplot, there is very little evident relation between these two columns, average income does not seem to impact the price all that greatly, at least not from what we can see. There are some more likely drivers of prices that are not as easily observed. Samsung has much less competiiton in many of these countries and an therfore charge higher prices. Import tarrifs on individual components of a phone could also jack up the price. Certain laws regarding labour standereds or quality assurance could also impact the price. The problem is these feilds are not very easy to graph into something like a scatterplot.
