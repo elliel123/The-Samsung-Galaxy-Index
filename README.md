@@ -40,6 +40,7 @@ We decided to compare the average income of each county with the difference in c
 ### 7.
 In order to compare the relation between average income and the difference we ploted them in a scattterplot, using the columns "Average Income (CAD)" and difference "Difference without tax" which resulted in this scatterplot.
 
-[Scatterplot](https://github.com/user-attachments/assets/9548c986-5f1e-497d-8f12-61a942b783fa)
+
+![Scatterplot](https://github.com/user-attachments/assets/889d55d6-6a15-4171-8603-bd234688e32c)
 
 As we can clearly see from this scatterplot, there is very little evident relation between these two columns, average income does not seem to impact the price all that greatly, at least not from what we can see. There are some more likely drivers of prices that are not as easily obsevred. Samsung has much less competiiton in many of these countries and an therfore charge higher prices. Import tarrifs on individual components of a phone could also jack up the price. Certain laws regarding labour standereds or quality assurance could also impact the price. The problem is these feilds are not very easy to graph into something like a scatterplot.
