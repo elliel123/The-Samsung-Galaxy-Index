@@ -36,4 +36,6 @@ As shown in the graph, you can see that the countries that you’re worst off in
 
 ### 6. 
 
+We decided to compare the average income of each county with the difference in cost. To do this we first found the average income of each country in USD and placed them into a list. This list was then placed into a copy of the previous table with the new name "FINAL_price_table_with_income" with a new column, "Average Income (USD)". We then created a new column by applying the previously described conversion to CAD to "Average Income (USD)" to aquire "Average Income (CAD)". After this we droped "Average Income (USD)". 
 ### 7.
+In order to compare the relation between average income and the difference we ploted them in a scattterplot, using the columns "Average Income (CAD)" and difference "Difference without tax" which resulted in this scatterplot.
