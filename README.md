@@ -10,7 +10,7 @@ Nowadays, smartphones have become an essential part of our daily lives, making s
 
 ### 1. Scraping the Pricing Data 
 
-To start the project, I found a website to scrape the data from. The website (https://www.androidauthority.com/cheapest-place-to-buy-samsung-galaxy-s23-3335713/ has a table) has a table which shows the prices of the Samsung Galaxy S23 across different countries in both the local currency as well as in USD. These prices were obtained from the samsung website in each country, and ignored local tax rates.
+To start the project, I found a website to scrape the data from. The website (https://www.androidauthority.com/cheapest-place-to-buy-samsung-galaxy-s23-3335713/, retrieved November 25th, 2024) has a table which shows the prices of the Samsung Galaxy S23 across different countries in both the local currency as well as in USD. These prices were obtained from the samsung website in each country, and ignored local tax rates.
 
 ### 2. Cleaning the Data
 
@@ -57,4 +57,6 @@ In order to compare the relation between average income and the difference we pl
 
 ![Scatterplot](https://github.com/user-attachments/assets/889d55d6-6a15-4171-8603-bd234688e32c)
 
-As we can clearly see from this scatterplot, there is very little evident relation between these two columns, average income does not seem to impact the price all that greatly, at least not from what we can see. There are some more likely drivers of prices that are not as easily observed. Samsung has much less competiiton in many of these countries and an therfore charge higher prices. Import tarrifs on individual components of a phone could also jack up the price. Certain laws regarding labour standereds or quality assurance could also impact the price. The problem is these feilds are not very easy to graph into something like a scatterplot.
+As we can clearly see from this scatterplot, there is very little evident relation between these two columns, average income does not seem to impact the price all that greatly, at least not from what we can see. There are some more likely drivers of prices that are not as easily observed. Samsung has much less competiiton in many of these countries and an therfore charge higher prices. Import tarrifs on individual components of a phone could also jack up the price. Certain laws regarding labour standards or quality assurance could also impact the price. The problem is these feilds are not very easy to graph into something like a scatterplot.
+
+### Conclusion 
