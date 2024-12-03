@@ -8,11 +8,25 @@ Source:https://recy-cell.ca/en/products/samsung-galaxy-s23/, retrieved on Decemb
 
 Nowadays, smartphones have become an essential part of our daily lives, making smartphones a perfect product of choice for a global price comparison index. Among all the different smartphone brands, the Samsung Galaxy stands out as one of the ideal choices for a price index, due to its widespread availability and popularity across the world. With its availability across different regions, it allows us to compare the price of the product from a wide variety of countries, providing meaningful insights into the concept of purchasing power parity.
 
-### 1.
+### 1. Scraping the Pricing Data 
 
-### 2.
+To start the project, I found a website to scrape the data from. The website (https://www.androidauthority.com/cheapest-place-to-buy-samsung-galaxy-s23-3335713/ has a table) has a table which shows the prices of the Samsung Galaxy S23 across different countries in both the local currency as well as in USD. These prices were obtained from the samsung website in each country, and ignored local tax rates.
 
-### 3.
+### 2. Cleaning the Data
+
+The data in each of the columns had to be cleaned to be useful in the remaining portions of the analysis, and to overall be more organized.
+
+#### For the country column:
+- The world country was added to each different country, so I removed that word to make it more the table more legible
+#### For the local price column:
+- Each data entry was displayed as “Localprice$1,099.99”. First I made a function to clean it. The function removed the phrase “Local Price”, removed all the commas, removed each currency code, and converted it to a float. This way the data was able to be useful in later parts of the project, as well as being overall more clear. Some of this had to be done manually, as the currency codes differed in length, but most of data was able to be cleaned using the same parameters in the function.
+#### For USD currency:
+- For this column, we wanted to convert into CAD, as that is the comparison we wanted to make. 
+- First we had to clean it, as it was displayed like “USD equivalent$799”. So we removed the phrase “USD equivalent”, the dollar sign, as well as any commas, then converted it to a float
+- To convert it to CAD, we used the conversion they used, as they had data on what it cost in Canada. Then we just applied that fraction to each value to get the Canadian cost at the time the data was collected. 
+
+### 3. Applying local taxes
+To apply local tax rates, I used the cite https://en.wikipedia.org/wiki/List_of_countries_by_tax_rates to find the tax rate of each country. Oftentimes there are numerous different tax rates per country, so I took the lowest tax rate under the assumption that someone would want to purchase the phone in the area of the country that has the lowest tax. I then put those in an array, added it as a column to the cleaned table, then multiplied the tax column to both the local prices, and the canadian prices. I kept those as seperate columns labeled "Local Prices with Tax" and "Canadian Prices with Tax). 
 
 ### 4. Displaying the currencies by currency code
 
