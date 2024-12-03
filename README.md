@@ -50,7 +50,8 @@ As shown in the graph, you can see that the countries that you’re worst off in
 
 ### 6. Calculating External Factors
 
-We decided to compare the average income of each county with the difference in cost. To do this we first found the average income of each country in USD and placed them into a list called income. This list was then placed into a copy of the previous table with the new name "FINAL_price_table_with_income" with a new column, "Average Income (USD)". We then created a new column by applying the previously described conversion to CAD to "Average Income (USD)" to aquire "Average Income (CAD)". After this we droped "Average Income (USD)". 
+We decided to compare the average income of each county with the difference in cost. To do this we first found the average income of each country in USD from the website worlddata.info("https://www.worlddata.info/average-income.php") and placed them into a list called income. This list was then placed into a copy of the previous table with the new name "FINAL_price_table_with_income" with a new column, "Average Income (USD)". We then created a new column by applying the previously described conversion to CAD to "Average Income (USD)" to aquire "Average Income (CAD)". After this we droped "Average Income (USD)". 
+
 ### 7. Plotting and Comparing External Factors
 In order to compare the relation between average income and the difference we ploted them in a scattterplot, using the columns "Average Income (CAD)" and difference "Difference without tax" which resulted in this scatterplot.
 
@@ -60,5 +61,5 @@ In order to compare the relation between average income and the difference we pl
 As we can clearly see from this scatterplot, there is very little evident correlation between these two columns, average income does not seem to impact the price all that greatly, at least not from what we can see. There are however some more likely drivers of prices that are not as easily observed. Samsung has much less competiiton in many of these countries and can therfore charge higher prices. Import tarrifs on individual components of a phone could  jack up the price. Certain laws regarding labour standards or quality assurance would certainly also impact the price. The problem is these feilds are not easily graphed into something like a scatterplot.
 
 ## Conclusion 
-Based on our findings, it's clear that you really won't save that much money by buying your Samsung Galaxy S23 in another country. But if you were looking to save about $125, the cheapest country to buy it would be China, and certainly don't buy one in Brazil as it would cost you an extra $567. As stated earliers, it does not seem as if there was significant correlation between the price of the phone, and the average income of someone living in that country. 
+Based on our findings, it's clear that you really won't save that much money by buying your Samsung Galaxy S23 in another country. But if you were looking to save about $125, the cheapest country to buy it would be China, and certainly don't buy one in Brazil as it would cost you an extra $567. As stated earlier, it does not seem as if there was significant correlation between the price of the phone, and the average income of someone living in that country. 
 
