@@ -26,7 +26,7 @@ The data in each of the columns had to be cleaned to be useful in the remaining 
 - To convert it to CAD, I used the conversion the original authors used, as they had data on what it cost in Canada. Then I just applied that fraction to each value to get the Canadian cost at the time the data was collected. 
 
 ### 3. Applying local taxes
-To apply local tax rates, I used the cite https://en.wikipedia.org/wiki/List_of_countries_by_tax_rates to find the tax rate of each country. Oftentimes there are numerous different tax rates per country, so I took the lowest tax rate under the assumption that someone would want to purchase the phone in the area of the country that has the lowest tax. I then put those in an array, added it as a column to the cleaned table, then multiplied the tax column to both the local prices, and the canadian prices. I kept those as seperate columns labeled "Local Prices with Tax" and "Canadian Prices with Tax). 
+To apply local tax rates, I used the website https://en.wikipedia.org/wiki/List_of_countries_by_tax_rates to find the tax rate of each country. Oftentimes there are numerous different tax rates per country, so I took the lowest tax rate under the assumption that someone would want to purchase the phone in the area of the country that has the lowest tax. I then put those in an array, added it as a column to the cleaned table, then multiplied the tax column to both the local prices and the canadian prices. I kept those as seperate columns labeled "Local Prices with Tax" and "Canadian Prices with Tax. 
 
 ### 4. Displaying the currencies by currency code
 
@@ -59,4 +59,6 @@ In order to compare the relation between average income and the difference we pl
 
 As we can clearly see from this scatterplot, there is very little evident relation between these two columns, average income does not seem to impact the price all that greatly, at least not from what we can see. There are some more likely drivers of prices that are not as easily observed. Samsung has much less competiiton in many of these countries and an therfore charge higher prices. Import tarrifs on individual components of a phone could also jack up the price. Certain laws regarding labour standards or quality assurance could also impact the price. The problem is these feilds are not very easy to graph into something like a scatterplot.
 
-### Conclusion 
+## Conclusion 
+Based on our findings, it's clear that you really won't save that much money by buying your Samsung Galaxy S23 in another country. But if you were looking to save about $125, the cheapest country to buy it would be China, and certainly don't buy one in Brazil as it would cost you an extra $567. As stated earliers, it does not seem as if there was significant correlation between the price of the phone, and the average income of someone living in that country. 
+
