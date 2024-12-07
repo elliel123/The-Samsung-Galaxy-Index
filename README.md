@@ -1,5 +1,7 @@
 # The Samsung Galaxy S23 Price Index
 
+### Group Members: Ellie Liao, Nate Arams, Reece Jurgens
+
 ![Samsung](Samsung-Galaxy-S23.png.webp "Samsung")
 
 Source:https://recy-cell.ca/en/products/samsung-galaxy-s23/, retrieved on December 2, 2024.
